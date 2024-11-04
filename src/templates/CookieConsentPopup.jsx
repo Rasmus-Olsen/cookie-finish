@@ -16,7 +16,6 @@ const CookieConsentPopup = () => {
       </header>
       <footer className="flex flex-col">
         <CookieConsentText />
-        <p>lille test</p>
         <CookieConsentButton test="Test string prop" action={setAcceptCookies} />
       </footer>
     </section>
